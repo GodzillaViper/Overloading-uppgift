@@ -38,17 +38,17 @@
 
     private static void Main(string[] args)
     {   
-        // Assigment1();
-        // Assigment2();
-        Assigment3();
+        // Uppgift1();
+        // Uppgift2();
+        Uppgift3();
     }
 
-    static void Assigment1() {
+    static void Uppgift1() {
         Console.WriteLine($"Absolute value of -5 is {absolute(-5)}");
         Console.WriteLine($"Absolute value of -5.5 is {absolute(-5.5)}");
     }
 
-    static void Assigment2() {
+    static void Uppgift2() {
         while (true) {
             Console.Write("Select a shape to calculate its area (C: Circle, T: Triangle): ");
             string? shape = Console.ReadLine();
@@ -84,7 +84,7 @@
         }
     }
 
-    static void Assigment3() {
+    static void Uppgift3() {
         Console.WriteLine(add(1, 2));
         Console.WriteLine(add(1.5, 2.5));
         Console.WriteLine(add("hello", "world"));
